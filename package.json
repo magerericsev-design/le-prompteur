@@ -3,6 +3,6 @@
   "private": true,
   "version": "0.1.0",
   "description": "Prompteur local avec repères visuels — préversion",
-  "scripts": {"test": "node test-parcours.cjs && node test-images.cjs && node test-pause.cjs && node test-demo.cjs && node test-mobile.cjs && node test-long.cjs && node test-navigateurs.cjs"},
+  "scripts": {"test": "node test-parcours.cjs && node test-images.cjs && node test-pause.cjs && node test-demo.cjs && node test-mobile.cjs && node test-long.cjs && node test-navigateurs.cjs && node test-quota.cjs"},
   "devDependencies": {"playwright": "1.62.1"}
 }
