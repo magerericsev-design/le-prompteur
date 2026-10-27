@@ -4,6 +4,8 @@
 
 Une édition publique en cours de préparation pour lire un texte à voix haute, organiser les prises et afficher des images associées aux passages. Elle est née d’un besoin rencontré pendant la préparation de l’épisode 002 de « Curiosité & IA ».
 
+[Essayer LE PROMPTEUR](https://magerericsev-design.github.io/le-prompteur/) · [Guide illustré](GUIDE.md) · [ERIC MAGER — LAB](https://eric-mager-lab.balmylily512.chatgpt.site/)
+
 **État : préversion 0.1.0.** Le logiciel n’a pas encore fait l’objet de l’ensemble des tests nécessaires à une version stable.
 
 ## Essayer en local
@@ -33,4 +35,4 @@ Un test Chromium a couvert la lecture, la pause, les chapitres, la sauvegarde, l
 
 ## Développement
 
-Pour les tests de développement : installer Node.js, exécuter `npm install` puis `npx playwright install chromium`. Lancer le serveur local indiqué plus haut et exécuter `npm test` dans un second terminal. Les tests utilisent Chromium ; ils ne remplacent pas les essais sur des appareils réels et d’autres navigateurs. Les trois images d’exemple ont été générées pour le projet ; voir `exemples/README.md` pour leur statut.
+Pour les tests de développement : installer Node.js, exécuter `npm install` puis `npx playwright install chromium firefox webkit`. Lancer le serveur local indiqué plus haut et exécuter `npm test` dans un second terminal. Les tests utilisent Chromium, Firefox et WebKit automatisés ; ils ne remplacent pas les essais sur des appareils réels. Les trois images d’exemple ont été générées pour le projet ; voir `exemples/README.md` pour leur statut.
